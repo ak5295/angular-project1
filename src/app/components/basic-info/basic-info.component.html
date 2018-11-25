@@ -1,0 +1,28 @@
+<p>
+  app-routing-module-form works!
+</p>
+<div class="container">
+  <h1>app routing module form</h1>
+  <form #app-routing-module-form="ngForm"></form>>
+  {{diagnostic}}
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name required"
+        [(ngModel)]="model.name" name="name">
+    </div>
+
+    <div class="form-group">
+        <label for="ssn">SSN</label>
+        <input type="text" class="form-control" id="ssn required"
+        [(ngModel)]="model.ssn" name="ssn">
+    </div>
+
+    <div class="form-group">
+        <label for="dob">DOB</label>
+        <input type="text" class="form-control" id="dob required"
+        [(ngModel)]="model.dob" name="dob">
+    </div>
+    <button type="submit" class="btn btn-success">Submit</button>
+  </form>
+
+</div>
