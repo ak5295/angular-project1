@@ -12,12 +12,12 @@ import { FormGroup, FormControl, FormsModule, ReactiveFormsModule } from '@angul
 // import {MaterialModule,  MatButtonModule,
 //     MatFormFieldModule,
 //     MatInputModule,
-//     MatRippleModule} 
+//     MatRippleModule}
 //     from '@angular/material';
 
 
 @NgModule({
-    declarations: [SampleComponent, AppComponent, HomeComponent, BasicInfoComponent], 
+    declarations: [SampleComponent, AppComponent, HomeComponent, BasicInfoComponent],
     imports: [
         BrowserModule,
         AppRoutingModule,

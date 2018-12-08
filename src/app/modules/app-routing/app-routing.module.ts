@@ -7,7 +7,7 @@ import { BasicInfoComponent } from 'src/app/components/basic-info/basic-info.com
 
 const routes: Routes = [
   {path: '', redirectTo: '/home', pathMatch: 'full'},
-  {path: 'home', component: HomeComponent}, 
+  {path: 'home', component: HomeComponent},
   {path: 'sample', component: SampleComponent},
   {path: 'basicinfo', component: BasicInfoComponent}
 ];
@@ -15,9 +15,9 @@ const routes: Routes = [
 @NgModule({
   imports: [
     RouterModule.forRoot(routes)
-  ], 
+  ],
   exports: [RouterModule]
 })
-export class AppRoutingModule { 
-  
+export class AppRoutingModule {
+
 }
